@@ -7,7 +7,7 @@ break1 = False
 
 while True:
     input("Welcome to the programmed version of the Magic 8-Ball. What do you wish to ask?: ")
-    print(message_list[randint(0, 20)])
+    print(message_list[randint(0, 19)])
     while True:
         yes_or_no = input("Would you like to try the Magic 8-Ball again?")
         if yes_or_no.strip().lower() == "yes":
